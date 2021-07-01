@@ -1,0 +1,68 @@
+{
+
+  "4222000006285344" : "
+<response timestamp=#20210630083130#>
+  <merchantid>myMerchantId</merchantid>
+  <account>ecom3ds</account>
+  <orderid>efRPwuUATdmorfjcvxQQhA</orderid>
+  <authcode>12345</authcode>
+  <result>00</result>
+  <cvnresult>M</cvnresult>
+  <avspostcoderesponse>M</avspostcoderesponse>
+  <avsaddressresponse>M</avsaddressresponse>
+  <batchid>960708</batchid>
+  <message>[ test system ] AUTHORISED</message>
+  <pasref>16250382905797278</pasref>
+  <timetaken>0</timetaken>
+  <authtimetaken>0</authtimetaken>
+  <srd>cMrSvg2Q78IQl5IT</srd>
+  <cardissuer>
+    <bank></bank>
+    <country></country>
+    <countrycode></countrycode>
+    <region></region>
+  </cardissuer>
+  <sha1hash>86c26068a0255c26bec184fdd05ef20a0eacf967</sha1hash>
+</response>"
+  ,
+
+  "4222000009719489" : "<response timestamp=#20210630085336#>
+  <merchantid>myMerchantId</merchantid>
+  <account>ecom3ds</account>
+  <orderid>4OF5POp6QmCgyspezhBLsw</orderid>
+  <authcode>12345</authcode>
+  <result>00</result>
+  <cvnresult>M</cvnresult>
+  <avspostcoderesponse>M</avspostcoderesponse>
+  <avsaddressresponse>M</avsaddressresponse>
+  <batchid>960708</batchid>
+  <message>[ test system ] AUTHORISED</message>
+  <pasref>16250396160774466</pasref>
+  <timetaken>0</timetaken>
+  <authtimetaken>0</authtimetaken>
+  <srd>7QFnkhQ7GIDhzVtR</srd>
+  <cardissuer>
+    <bank></bank>
+    <country></country>
+    <countrycode></countrycode>
+    <region></region>
+  </cardissuer>
+  <sha1hash>a1217a1f2b2c53fc985c19d8d66a00f036328009</sha1hash>
+</response>"
+  ,
+
+  "4222000005218627" :
+  ,
+
+  "4222000002144131" :
+  ,
+
+  "4222000007275799" :
+  ,
+
+  "4222000008880910" :
+  ,
+
+  "4222000001227408" :
+
+}

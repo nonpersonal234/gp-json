@@ -1,0 +1,106 @@
+{
+  "4917000000000087" : {
+  "enrolled" : false
+}
+  ,
+
+  "4012001037141112" : {
+  "enrolled" : false
+}
+  ,
+
+  "4222000006285344" : {
+  "server_trans_id" : "01d0c501-7815-4a84-9ad6-aa80e29aa77a",
+  "enrolled" : true,
+  "ds_protocol_version_start" : "2.1.0",
+  "ds_protocol_version_end" : "2.2.0",
+  "acs_protocol_version_start" : "2.1.0",
+  "acs_protocol_version_end" : "2.2.0",
+  "method_url" : "https://test.portal.gpwebpay.com/pay-sim/sim/acs",
+  "method_data" : {
+    "encoded_method_data" : "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiMDFkMGM1MDEtNzgxNS00YTg0LTlhZDYtYWE4MGUyOWFhNzdhIiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cHM6Ly93d3cuaHNiYy5jb20vbWV0aG9kTm90aWZpY2F0aW9uVXJsIgp9",
+    "three_ds_server_trans_id" : "01d0c501-7815-4a84-9ad6-aa80e29aa77a",
+    "three_ds_method_notification_url" : "https://www.hsbc.com/methodNotificationUrl"
+  },
+  "acs_info_indicator" : [ "NOT_AVAILABLE" ]
+}
+  ,
+
+  "4222000009719489" : {
+  "server_trans_id" : "58d237c4-4295-4367-9e7e-97c71fbe01f0",
+  "enrolled" : true,
+  "ds_protocol_version_start" : "2.1.0",
+  "ds_protocol_version_end" : "2.2.0",
+  "acs_protocol_version_start" : "2.1.0",
+  "acs_protocol_version_end" : "2.2.0",
+  "acs_info_indicator" : [ "NOT_AVAILABLE" ]
+}
+  ,
+
+  "4222000005218627" : {
+  "server_trans_id" : "93bea2d1-07fb-4a50-a913-5fbfe2cfd07b",
+  "enrolled" : true,
+  "ds_protocol_version_start" : "2.1.0",
+  "ds_protocol_version_end" : "2.2.0",
+  "acs_protocol_version_start" : "2.1.0",
+  "acs_protocol_version_end" : "2.2.0",
+  "method_url" : "https://test.portal.gpwebpay.com/pay-sim/sim/acs",
+  "method_data" : {
+    "encoded_method_data" : "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiOTNiZWEyZDEtMDdmYi00YTUwLWE5MTMtNWZiZmUyY2ZkMDdiIiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cHM6Ly93d3cuaHNiYy5jb20vbWV0aG9kTm90aWZpY2F0aW9uVXJsIgp9",
+    "three_ds_server_trans_id" : "93bea2d1-07fb-4a50-a913-5fbfe2cfd07b",
+    "three_ds_method_notification_url" : "https://www.hsbc.com/methodNotificationUrl"
+  },
+  "acs_info_indicator" : [ "NOT_AVAILABLE" ]
+}
+  ,
+
+  "4222000002144131" :
+  ,
+
+  "4222000007275799" :
+  ,
+
+  "4222000008880910" :
+  ,
+
+  "4222000001227408" :
+
+
+  int sel = 12;
+
+        if (sel == 1) {
+            card.setNumber("4917000000000087"); // 3DS1 not enrolled}
+        } else if (sel == 2) {
+            card.setNumber("4012001037141112"); //3DS2 Not Enrolled
+        } else if (sel == 3) {
+            card.setNumber("4263970000005262"); //Msg 2.1 Frictionless AUTHENTICATION_SUCCESSFUL
+        } else if (sel == 4) {
+            card.setNumber("4222000006724235"); //Msg 2.1 Frictionless AUTHENTICATION_SUCCESSFUL - No Method URL
+        } else if (sel == 5) {
+            card.setNumber("4012001037167778"); //Msg 2.1 Frictionless AUTHENTICATION_ATTEMPTED_BUT_NOT_SUCCESSFUL
+        } else if (sel == 6) {
+            card.setNumber("4012001037461114"); //Msg 2.1 Frictionless AUTHENTICATION_FAILED
+        } else if (sel == 7) {
+            card.setNumber("4012001038443335"); //Msg 2.1 Frictionless AUTHENTICATION_ISSUER_REJECTED
+        } else if (sel == 8) {
+            card.setNumber("4012001037484447"); //Msg 2.1 Frictionless AUTHENTICATION_COULD_NOT_BE_PERFORMED
+        } else if (sel == 9) {
+            card.setNumber("4012001038488884"); //Msg 2.1 Challenge CHALLENGE_REQUIRED
+        } else if (sel == 10) {
+            card.setNumber("4222000006285344"); //Msg 2.2 Frictionless AUTHENTICATION_SUCCESSFUL
+        } else if (sel == 11) {
+            card.setNumber("4222000009719489"); //Msg 2.2 Frictionless AUTHENTICATION_SUCCESSFUL - No Method URL
+        } else if (sel == 12) {
+            card.setNumber("4222000005218627"); //Msg 2.2 Frictionless AUTHENTICATION_ATTEMPTED_BUT_NOT_SUCCESSFUL
+        } else if (sel == 13) {
+            card.setNumber("4222000002144131"); //Msg 2.2 Frictionless AUTHENTICATION_FAILED
+        } else if (sel == 14) {
+            card.setNumber("4222000007275799"); //Msg 2.2 Frictionless AUTHENTICATION_ISSUER_REJECTED
+        } else if (sel == 15) {
+            card.setNumber("4222000008880910"); //Msg 2.2 Frictionless AUTHENTICATION_COULD_NOT_BE_PERFORMED
+        } else if (sel == 16) {
+            card.setNumber("4222000001227408"); //Msg 2.2 Challenge CHALLENGE_REQUIRED
+        }
+
+
+}

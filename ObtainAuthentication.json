@@ -1,0 +1,49 @@
+{
+
+  "4222000006285344" : {
+  "server_trans_id" : "01d0c501-7815-4a84-9ad6-aa80e29aa77a",
+  "acs_trans_id" : "2f29c640-d975-41eb-8ab1-7d2d56274127",
+  "ds_trans_id" : "2898072b-47d8-4315-a4ff-052974109368",
+  "authentication_value" : "AJkBAyGJUQAAAAPphAGBdQAAAAA=",
+  "eci" : "05",
+  "challenge_mandated" : false,
+  "status" : "AUTHENTICATION_SUCCESSFUL",
+  "status_reason" : "MEDIUM_CONFIDENCE",
+  "authentication_source" : "BROWSER",
+  "message_category" : "PAYMENT_AUTHENTICATION",
+  "message_extension" : [ ],
+  "message_version" : "2.2.0"
+}
+  ,
+
+  "4222000009719489" : {
+  "server_trans_id" : "58d237c4-4295-4367-9e7e-97c71fbe01f0",
+  "acs_trans_id" : "452dbb60-d978-41eb-8ab1-7d2d56274165",
+  "ds_trans_id" : "78c3f257-2238-4e3e-b96c-bee329558bdf",
+  "authentication_value" : "AJkBATiQEwAAAAPphAGBdQAAAAA=",
+  "eci" : "05",
+  "challenge_mandated" : false,
+  "status" : "AUTHENTICATION_SUCCESSFUL",
+  "status_reason" : "MEDIUM_CONFIDENCE",
+  "authentication_source" : "BROWSER",
+  "message_category" : "PAYMENT_AUTHENTICATION",
+  "message_extension" : [ ],
+  "message_version" : "2.2.0"
+}
+  ,
+
+  "4222000005218627" :
+  ,
+
+  "4222000002144131" :
+  ,
+
+  "4222000007275799" :
+  ,
+
+  "4222000008880910" :
+  ,
+
+  "4222000001227408" :
+
+}
