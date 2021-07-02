@@ -1,0 +1,119 @@
+{
+	"4917000000000087": {
+		"enrolled": false}
+			"enrolled": false
+	},
+	"4222000006285344": {
+		"server_trans_id": "01d0c501-7815-4a84-9ad6-aa80e29aa77a",
+		"enrolled": true,
+		"ds_protocol_version_start": "2.1.0",
+		"ds_protocol_version_end": "2.2.0",
+		"acs_protocol_version_start": "2.1.0",
+		"acs_protocol_version_end": "2.2.0",
+		"method_url": "https://test.portal.gpwebpay.com/pay-sim/sim/acs",
+		"method_data": {
+			"encoded_method_data": "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiMDFkMGM1MDEtNzgxNS00YTg0LTlhZDYtYWE4MGUyOWFhNzdhIiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cHM6Ly93d3cuaHNiYy5jb20vbWV0aG9kTm90aWZpY2F0aW9uVXJsIgp9",
+			"three_ds_server_trans_id": "01d0c501-7815-4a84-9ad6-aa80e29aa77a",
+			"three_ds_method_notification_url": "https://www.hsbc.com/methodNotificationUrl"
+		},
+		"acs_info_indicator": [
+			"NOT_AVAILABLE"
+		]
+	},
+	"4222000009719489": {
+		"server_trans_id": "58d237c4-4295-4367-9e7e-97c71fbe01f0",
+		"enrolled": true,
+		"ds_protocol_version_start": "2.1.0",
+		"ds_protocol_version_end": "2.2.0",
+		"acs_protocol_version_start": "2.1.0",
+		"acs_protocol_version_end": "2.2.0",
+		"acs_info_indicator": [
+			"NOT_AVAILABLE"
+		]
+	},
+	"4222000005218627": {
+		"server_trans_id": "21d7f652-8fb6-4309-94c8-6d63ed76039a",
+		"enrolled": true,
+		"ds_protocol_version_start": "2.1.0",
+		"ds_protocol_version_end": "2.2.0",
+		"acs_protocol_version_start": "2.1.0",
+		"acs_protocol_version_end": "2.2.0",
+		"method_url": "https://acssandbox-sim.test.gpe.cz/pay-acs-sim/api/three-ds-method",
+		"method_data": {
+			"encoded_method_data": "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiMjFkN2Y2NTItOGZiNi00MzA5LTk0YzgtNmQ2M2VkNzYwMzlhIiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vbWV0aG9kTm90aWZpY2F0aW9uVXJsIgp9",
+			"three_ds_server_trans_id": "21d7f652-8fb6-4309-94c8-6d63ed76039a",
+			"three_ds_method_notification_url": "https://www.example.com/methodNotificationUrl"
+		},
+		"acs_info_indicator": [
+			"NOT_AVAILABLE"
+		]
+	},
+	"4222000002144131": {
+		"server_trans_id": "bfd87834-e11f-45a9-8cd6-3eccffc9009a",
+		"enrolled": true,
+		"ds_protocol_version_start": "2.1.0",
+		"ds_protocol_version_end": "2.2.0",
+		"acs_protocol_version_start": "2.1.0",
+		"acs_protocol_version_end": "2.2.0",
+		"method_url": "https://acssandbox-sim.test.gpe.cz/pay-acs-sim/api/three-ds-method",
+		"method_data": {
+			"encoded_method_data": "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiYmZkODc4MzQtZTExZi00NWE5LThjZDYtM2VjY2ZmYzkwMDlhIiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vbWV0aG9kTm90aWZpY2F0aW9uVXJsIgp9",
+			"three_ds_server_trans_id": "bfd87834-e11f-45a9-8cd6-3eccffc9009a",
+			"three_ds_method_notification_url": "https://www.example.com/methodNotificationUrl"
+		},
+		"acs_info_indicator": [
+			"NOT_AVAILABLE"
+		]
+	},
+	"4222000007275799": {
+		"server_trans_id": "eb54f12d-938a-4907-83d4-c299ea56feef",
+		"enrolled": true,
+		"ds_protocol_version_start": "2.1.0",
+		"ds_protocol_version_end": "2.2.0",
+		"acs_protocol_version_start": "2.1.0",
+		"acs_protocol_version_end": "2.2.0",
+		"method_url": "https://acssandbox-sim.test.gpe.cz/pay-acs-sim/api/three-ds-method",
+		"method_data": {
+			"encoded_method_data": "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiZWI1NGYxMmQtOTM4YS00OTA3LTgzZDQtYzI5OWVhNTZmZWVmIiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vbWV0aG9kTm90aWZpY2F0aW9uVXJsIgp9",
+			"three_ds_server_trans_id": "eb54f12d-938a-4907-83d4-c299ea56feef",
+			"three_ds_method_notification_url": "https://www.example.com/methodNotificationUrl"
+		},
+		"acs_info_indicator": [
+			"NOT_AVAILABLE"
+		]
+	},
+	"4222000008880910": {
+		"server_trans_id": "0d537a66-9065-4db9-977e-7d0c2612909d",
+		"enrolled": true,
+		"ds_protocol_version_start": "2.1.0",
+		"ds_protocol_version_end": "2.2.0",
+		"acs_protocol_version_start": "2.1.0",
+		"acs_protocol_version_end": "2.2.0",
+		"method_url": "https://acssandbox-sim.test.gpe.cz/pay-acs-sim/api/three-ds-method",
+		"method_data": {
+			"encoded_method_data": "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiMGQ1MzdhNjYtOTA2NS00ZGI5LTk3N2UtN2QwYzI2MTI5MDlkIiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vbWV0aG9kTm90aWZpY2F0aW9uVXJsIgp9",
+			"three_ds_server_trans_id": "0d537a66-9065-4db9-977e-7d0c2612909d",
+			"three_ds_method_notification_url": "https://www.example.com/methodNotificationUrl"
+		},
+		"acs_info_indicator": [
+			"NOT_AVAILABLE"
+		]
+	},
+	"4222000001227408": {
+		"server_trans_id": "90ee925b-c607-46cc-9a56-469dc0e6489b",
+		"enrolled": true,
+		"ds_protocol_version_start": "2.1.0",
+		"ds_protocol_version_end": "2.2.0",
+		"acs_protocol_version_start": "2.1.0",
+		"acs_protocol_version_end": "2.2.0",
+		"method_url": "https://acssandbox-sim.test.gpe.cz/pay-acs-sim/api/three-ds-method",
+		"method_data": {
+			"encoded_method_data": "ewogICJ0aHJlZURTU2VydmVyVHJhbnNJRCIgOiAiOTBlZTkyNWItYzYwNy00NmNjLTlhNTYtNDY5ZGMwZTY0ODliIiwKICAidGhyZWVEU01ldGhvZE5vdGlmaWNhdGlvblVSTCIgOiAiaHR0cHM6Ly93d3cuZXhhbXBsZS5jb20vbWV0aG9kTm90aWZpY2F0aW9uVXJsIgp9",
+			"three_ds_server_trans_id": "90ee925b-c607-46cc-9a56-469dc0e6489b",
+			"three_ds_method_notification_url": "https://www.example.com/methodNotificationUrl"
+		},
+		"acs_info_indicator": [
+			"NOT_AVAILABLE"
+		]
+	}
+}
